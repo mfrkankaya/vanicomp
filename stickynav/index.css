@@ -1,0 +1,31 @@
+header {
+  padding: 4rem;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  transition: 0.4s ease-in-out;
+}
+
+header.active{
+  padding: 2rem;
+  background-color: #111111;
+  color: #eeeeee;
+  box-shadow: 0 1rem 2rem -1rem #000;
+}
+
+.box {
+  height: 30vh;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
