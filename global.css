@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+:root{
+  --text: #565656;
+  --dark-text: #232323;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+  color: var(--text);
+}
+
+button{
+  color: var(--dark-text);
+}
+
+.container {
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
