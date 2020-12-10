@@ -9,28 +9,33 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   </head>
   <body>
-    <!-- 
+    <div class="container">
+      <!-- 
       Add src as data-imageshow-src to any element you want to click and call initImageShow() function
      -->
-    <div>
-      <img src="https://picsum.photos/200/300" data-imageshow-src="https://picsum.photos/200/300" />
-      <br />
-      <span>Click image above</span>
-    </div>
+      <div>
+        <img
+          src="https://picsum.photos/200/300"
+          data-imageshow-src="https://picsum.photos/200/300"
+        />
+        <br />
+        <span>Click image above</span>
+      </div>
 
-    <br />
-
-    <div>
-      <img src="https://picsum.photos/200/300" />
       <br />
-      <button data-imageshow-src="https://picsum.photos/200/300">ShowImage</button>
+
+      <div>
+        <img src="https://picsum.photos/200/300" />
+        <br />
+        <button data-imageshow-src="https://picsum.photos/200/300">ShowImage</button>
+      </div>
     </div>
 
     <!-- 
       If you click backdrop, it closes as default, if you dont want that, add dont-close-onclick="true"
       <div class="imageshow-backdrop" dont-close-onclick="true">
     -->
-    
+
     <div class="imageshow-backdrop">
       <img src="" alt="" />
       <div class="imageshow-close">Close</div>
