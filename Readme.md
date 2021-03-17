@@ -7,5 +7,3 @@ Vanicomp is a set of simple components of HTML, CSS and JS.
 - Searchbar
 - Sticky Navbar (Can use as something else)
 - Tabs
-
-Feel free to use any of them.
